@@ -3,8 +3,7 @@ import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
 
 
-let maand=await userInput.question('Geef een maand in: ')
-
+let maand=await userInput.question('Geef een maand in: ') 
 switch(maand){
     case 'April':
     case 'Juni':
